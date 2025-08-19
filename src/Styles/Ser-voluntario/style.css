@@ -1,0 +1,48 @@
+.mudancas-container {
+    position: relative;
+    display: flex;
+    background-image: url("../../assets/Ser-voluntario/img-ser-voluntario.png");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+    color: white;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.mudanca-mundo,
+.fazer-parte {
+    position: relative;
+    z-index: 1;
+}
+
+.mudanca-mundo{
+    text-transform: uppercase;
+}
+
+.fazer-parte {
+    text-align: center;
+}
+
+.fazer-parte button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    background: #b20000;
+    font-weight: bold;
+    font-size: 1rem;
+}

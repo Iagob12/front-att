@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    width: 90%;
+}
+
+.navegacao ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 30px;
+    font-weight: 500;
+}
+
+.navegacao ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.botoes {
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.doar {
+    background: #B20000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.cadastrar {
+    color: #B20000;
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+.navegacao ul li a:hover {
+    color: #B20000;
+    border-top: 1px solid #B20000;
+    transition: .5s;
+}

@@ -1,0 +1,37 @@
+.conteudo-inicial{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.voluntario{
+    flex: 60%;
+}
+
+.voluntario h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.voluntario p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.voluntario button{
+    background: #B20000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.img-integrantes{
+    justify-self: center;
+    flex: 30%;
+}
+
+.img-integrantes img{
+    width: 500px;
+}

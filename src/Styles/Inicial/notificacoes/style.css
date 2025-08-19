@@ -1,0 +1,36 @@
+.notificacoes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #f2f2f2;
+    height: auto;
+}
+
+.informacoes {
+    width: 80%;
+    justify-self: center;
+    margin: 20px;
+}
+
+.informacoes h1 {
+    font-size: 2rem;
+    color: #b20000;
+    margin-bottom: 5px;
+}
+
+.informacoes p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.notificacoes input {
+    width: 350px;
+    padding: 15px;
+    border: 2px solid #808080;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 70px;
+}

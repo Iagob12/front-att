@@ -1,0 +1,99 @@
+.img-eventos {
+    width: 100%;
+    height: 700px;
+    background-image: url('../../assets/Eventos/img-eventos.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background: #f2f2f2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.container h1,
+.campanhas h1 {
+    text-align: center;
+    color: #808080;
+    font-size: 2.5rem;
+    padding-top: 20px;
+}
+
+.linha {
+    background: #b20000;
+    width: 250px;
+    height: 2px;
+    margin: 0 auto;
+    border-radius: 2px
+}
+
+.lista-eventos {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-evento {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    width: 45%;
+    margin-top: 30px;
+}
+
+.card-evento h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.card-evento p {
+    font-size: 1.5rem;
+}
+
+.saiba-mais {
+    background: #b20000;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.lista-campanhas {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-campanha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 500px;
+}
+
+.card-campanha img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-campanha {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-campanha span {
+    font-size: 1.2rem;
+    color: #808080;
+}

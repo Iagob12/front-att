@@ -1,0 +1,145 @@
+.img-comoAjudar {
+   position: relative;
+   background-image: url(../../assets/Como-ajudar/como-ajudar.png); 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 700px;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 1;
+}
+
+.img-comoAjudar h1 {
+   color: white;
+   font-size: 3rem;
+   position: relative;
+   z-index: 2;
+   text-transform: uppercase;
+}
+
+.doe-agora-container{
+   display: flex;
+   margin-top: 50px;
+   justify-self: center;
+   width: 50%;
+}
+
+.doe-agora span{
+   color: #b20000;
+   font-weight: bold;
+}
+
+.doe-agora{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 50px;
+}
+
+.doe-agora p{
+   font-size: 1.25rem;
+   padding-left: 20px;
+}
+
+.doe-agora button{
+   border: none;
+   border-radius: 15px;
+   background: #b20000;
+   color: white;
+   padding: 10px 25px;
+   margin-top: 40px;
+   font-size: 1rem;
+}
+
+.area-voluntario{
+   background: #f2f2f2;
+   margin-top: 50px;
+   padding-top: 50px;
+   padding-bottom: 100px;
+}
+
+.area-voluntario h2{
+   font-size: 2rem;
+   text-align: center;
+}
+
+.opcoes-voluntario{
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+}
+
+.ser-voluntario p{
+   font-size: 1.5rem;
+}
+
+.ser-voluntario button {
+   color: #fff;
+   background: #b20000;
+   border: none;
+   border-radius: 10px;
+   padding: 10px 20px;
+   font-weight: bold;
+}
+
+.mensal {
+   background: #fff;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+.mensal p, .doe p{
+   font-size: 1.25rem;
+   font-weight: bold;
+   margin: 0 0 20px 0;
+}
+
+.mensal h3 {
+   color: #b20000;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+
+.mensal button {
+   width: 100%;
+   border: none;
+   border-radius: 15px;
+   background: #b20000;
+   color: white;
+   padding: 10px 25px;
+   margin-bottom: 20px;
+   font-weight: bold;
+}
+
+.doe {
+   background: #fff;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+.doe h3{
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+
+.doe button {
+   width: 100%;
+   border: none;
+   border-radius: 15px;
+   background: #808080;
+   color: white;
+   padding: 10px 25px;
+   margin-bottom: 20px;
+   font-weight: bold;
+}

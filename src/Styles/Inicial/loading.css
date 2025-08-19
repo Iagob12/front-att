@@ -1,0 +1,21 @@
+/* Estilos para mensagens de carregamento e erro */
+.loading-message,
+.error-message {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.loading-message {
+    background-color: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #bbdefb;
+}
+
+.error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+}

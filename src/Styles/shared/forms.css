@@ -1,0 +1,50 @@
+/* Estilos compartilhados para formulários */
+
+/* Mensagens de erro e sucesso */
+.message {
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.message.error {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+}
+
+.message.success {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+
+/* Estilos para botões desabilitados */
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Estilos para campos de formulário */
+input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+input.error {
+    border-color: #c62828;
+}
+
+/* Estilos para links clicáveis */
+.cadastre-se-aqui span {
+    cursor: pointer;
+    color: #4a90e2;
+    text-decoration: underline;
+}
+
+.cadastre-se-aqui span:hover {
+    color: #2a6fc0;
+}

@@ -1,0 +1,43 @@
+.img-transformando{
+    margin: 50px 0;
+    width: 100%;
+    height: 300px;
+    background-image: url('../../../assets/Inicial/transformando.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.transformando-vidas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.transformando-vidas h1{
+    color: #808080;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.formas-ajuda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.formas-ajuda img{
+    width: 60%;
+    max-width: 70%;
+}
+
+.transformando-vidas button{
+    background: #B20000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    align-self: center;
+    margin-top: 50px;
+}
